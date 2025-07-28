@@ -77,8 +77,11 @@ def get_financial_tip(user_goal, income, savings_target):
     return response.choices[0].message["content"]
 
 print(get_financial_tip("Travel Savings", 40000, 10000))
-
+```
 ---
+
+
+
 ## 🔗 Live Demo
 
 👉 [Try Fincoach Now](https://fincoach-genz-finance-hub.lovable.app/login)
